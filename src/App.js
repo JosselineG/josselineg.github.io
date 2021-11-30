@@ -16,16 +16,16 @@ function App() {
          <div> 
            <ul>
             <li> 
-           <Link  to = 'ContactMe'>Contact Me</Link>  {" "}
+           <Link style={{color:"black"}}  to = '/'>Home</Link>  
             </li>
              <li> 
-          <Link style={{color:"black"}}to = 'Projects'>Projects</Link>  {" "}
+             <Link style={{color:"black"}} to = 'AboutMe'>About Me</Link> 
             </li>
              <li> 
-          <Link  to = 'AboutMe'>About Me</Link>  {" "}
+          <Link style={{color:"black"}}to = 'Projects'>Projects</Link>  
             </li>
             <li> 
-          <Link to = '/'>Home</Link> 
+          <Link style={{color:"black"}}to = 'ContactMe'>Contact Me</Link> 
             </li>
           </ul>
           </div>
