@@ -1,4 +1,4 @@
-import logo from './josseline.jpg';
+import logo from './LogoJGHalfcolor.png';
 import './App.css';
 import Projects from "./components/Projects"
 import Home from "./components/Home"
@@ -16,28 +16,32 @@ function App() {
          <div> 
            <ul>
             <li> 
-           <Link style={{color:"black"}}  to = '/'>Home</Link>  
+           <Link style={{color:"white"}}  to = '/'>Home</Link>  
             </li>
              <li> 
-             <Link style={{color:"black"}} to = 'AboutMe'>About Me</Link> 
+             <Link style={{color:"white"}} to = 'AboutMe'>About Me</Link> 
             </li>
              <li> 
-          <Link style={{color:"black"}}to = 'Projects'>Projects</Link>  
+          <Link style={{color:"white"}}to = 'Projects'>Projects</Link>  
             </li>
             <li> 
-          <Link style={{color:"black"}}to = 'ContactMe'>Contact Me</Link> 
+          <Link style={{color:"white"}}to = 'ContactMe'>Contact Me</Link> 
             </li>
+
+             <img src={logo} className="App-LogoJGHalfcolor" alt="LogoJGHalfcolor" width="170" height="170"/>
           </ul>
           </div>
       </nav>
  
      <Routes>
        <Route path="Projects" element={<Projects/>} />
+       <Route path="Projects/subProject" element={<Projects/>}/>
        <Route path="/" element={<Home/>}/>
        <Route path="AboutMe" element={<AboutMe/>}/>
        <Route path="ContactMe" element={<ContactMe/>}/>
      </Routes>
 
+     
     </div>
   );
 }
