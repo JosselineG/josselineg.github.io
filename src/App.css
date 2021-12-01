@@ -44,6 +44,7 @@
 .homeImg{
   border-radius: 25%;
   border: 2px solid black;
+  display: '';
 }
 
 
@@ -131,9 +132,10 @@
 
 .App-LogoJGHalfcolor {
   pointer-events:none;
-  position:fixed;
+  position: fixed;
   right: 30px;
   bottom: 460px;
+  display: block;
 
 }
 
