@@ -26,10 +26,12 @@ handleSubmit =(e)=>{
             
             <h1>Contact Me</h1>
                 <div className="contact">
-            
+            <a style={{color: "black"}} href="mailto: guardadojosseline@gmail.com"> 
             <p>Email: guardadojosseline@gmail.com</p>
-            <p>Phone Number: (914)257-9220 </p>
-           
+            </a>
+            <a style={{color: "black"}} href="tel: 914-257-9220"> 
+            <p>Phone Number: 914-257-9220 </p>
+           </a>
                 </div>
 
             <div className="box">

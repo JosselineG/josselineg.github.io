@@ -37,6 +37,13 @@
     top: 0;
     height: 548px;
 
+  
+
+}
+
+.homeImg{
+  border-radius: 25%;
+  border: 2px solid black;
 }
 
 
@@ -46,7 +53,7 @@
 
   text-align: center;
   display: block;
-  color: black;
+  color: white;
   background-color: #a7a376;
  
   width: 100%;
@@ -62,11 +69,16 @@
   margin: 0px;
   top: auto;
   right: 80px;
-  bottom: 40px;
+  bottom: 30px;
   left: auto;
   position: fixed;
   background-color: black;
   border: 2px solid white;
+  border-radius: 30px;
+  font-size: 15px;
+  padding: 15px;
+  font-family:Georgia;
+  text-align:left;
 }
 
 .contact{

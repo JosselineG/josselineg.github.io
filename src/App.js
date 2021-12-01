@@ -6,6 +6,9 @@ import AboutMe from './components/AboutMe';
 import ContactMe from './components/ContactMe';
 import {Routes, Route, Link} from 'react-router-dom'
 import Button from '@mui/material/Button'
+import Project1 from './components/pages/Project1';
+import Project2 from './components/pages/Project2';
+import Project3 from './components/pages/Project3';
 
 
 function App() { 
@@ -27,15 +30,19 @@ function App() {
             <li> 
           <Link style={{color:"white"}}to = 'ContactMe'>Contact Me</Link> 
             </li>
-
+              <a href= ""  >
              <img src={logo} className="App-LogoJGHalfcolor" alt="LogoJGHalfcolor" width="170" height="170"/>
+              </a>
           </ul>
           </div>
       </nav>
  
      <Routes>
        <Route path="Projects" element={<Projects/>} />
-       <Route path="Projects/subProject" element={<Projects/>}/>
+       <Route path="Projects/Project1" element={<Project1/>}/>
+       <Route path="Projects/Project2" element={<Project2/>}/>
+       <Route path="Projects/Project3" element={<Project3/>}/>
+      
        <Route path="/" element={<Home/>}/>
        <Route path="AboutMe" element={<AboutMe/>}/>
        <Route path="ContactMe" element={<ContactMe/>}/>
