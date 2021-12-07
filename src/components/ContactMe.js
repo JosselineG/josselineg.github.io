@@ -1,5 +1,7 @@
 import * as React from 'react';
 import TextField from '@mui/material/TextField';
+import Button from '@mui/material/Button'
+import SendIcon from '@mui/icons-material/Send';
 
 class ContactMe extends React.Component{
 
@@ -41,7 +43,6 @@ handleSubmit =(e)=>{
                   id="outlined-name" 
                   label="Name" 
                   variant="filled" 
-                
                   value= {this.state.value}
                   onChange={(e)=>this.handleChange(e)}
                 />
@@ -60,7 +61,7 @@ handleSubmit =(e)=>{
                 label="Message" 
                 variant="filled" />
 
-                <button onClick={(e)=>this.handleSubmit(e)} type="submit">Submit</button>
+                <Button style={{backgroundColor: 'black'}} endIcon={<SendIcon/>} size='small' variant='contained' onClick={(e)=>this.handleSubmit(e)} type="submit">Submit</Button>
            
 
           

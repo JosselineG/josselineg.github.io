@@ -9,11 +9,11 @@ export default function AboutMe(){
         
                 <p>
               
-                 My name is Josseline, I'm currently a computer science student at Lehman College.
+                 "My name is Josseline, I'm currently a computer science student at Lehman College.
                  Over this past months, I've had the opportunity to learn front end development and
                  have enjoyed every minute of it. It is something that I see myself doing more
                  in the future. Apart from that, things I enjoy doing during my freetime are going camping, 
-                 mountain biking and playing soccer. 
+                 mountain biking and playing soccer.""
                  
               
                 </p>

@@ -18,16 +18,16 @@ function App() {
          <div> 
             <ul>
             <li> 
-           <Link style={{color:"white"}}  to = '/'>Home</Link>  
+           <Link style={{color:"white", textDecoration: 'none'}}  to = '/'> Home</Link>  
             </li>
              <li> 
-             <Link style={{color:"white"}} to = 'AboutMe'>About Me</Link> 
+             <Link style={{color:"white", textDecoration: 'none'}} to = 'AboutMe'>About Me</Link> 
             </li>
              <li> 
-          <Link style={{color:"white"}}to = 'Projects'>Projects</Link>  
+          <Link style={{color:"white", textDecoration: 'none'}}to = 'Projects'>Projects</Link>  
             </li>
             <li> 
-          <Link style={{color:"white"}}to = 'ContactMe'>Contact Me</Link> 
+          <Link style={{color:"white", textDecoration: 'none'}}to = 'ContactMe'>Contact Me</Link> 
             </li>
               
              <img src={logo} className="App-LogoJGHalfcolor" alt="LogoJGHalfcolor" width="170" height="170"/>
