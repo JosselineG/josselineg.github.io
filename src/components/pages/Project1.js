@@ -1,4 +1,4 @@
-export default function Project1(){ 
+export default function Project3(){ 
 
     return(
     <div className="proj1"> 

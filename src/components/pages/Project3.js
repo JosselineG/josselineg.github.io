@@ -1,6 +1,7 @@
 export default function Project3(){ 
 
     return(
+    
     <div className="proj3"> 
         
         <h1>Project 3</h1>
@@ -9,7 +10,6 @@ export default function Project3(){
         <p>Description:</p>
     
     </div>
-
     )
         
     
