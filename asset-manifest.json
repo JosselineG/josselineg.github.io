@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/josselineg.github.io/static/css/main.9a952c8c.chunk.css",
+    "main.js": "/josselineg.github.io/static/js/main.19c22a68.chunk.js",
+    "main.js.map": "/josselineg.github.io/static/js/main.19c22a68.chunk.js.map",
+    "runtime-main.js": "/josselineg.github.io/static/js/runtime-main.96e252ef.js",
+    "runtime-main.js.map": "/josselineg.github.io/static/js/runtime-main.96e252ef.js.map",
+    "static/js/2.3e818c14.chunk.js": "/josselineg.github.io/static/js/2.3e818c14.chunk.js",
+    "static/js/2.3e818c14.chunk.js.map": "/josselineg.github.io/static/js/2.3e818c14.chunk.js.map",
+    "static/js/3.2f3ba182.chunk.js": "/josselineg.github.io/static/js/3.2f3ba182.chunk.js",
+    "static/js/3.2f3ba182.chunk.js.map": "/josselineg.github.io/static/js/3.2f3ba182.chunk.js.map",
+    "index.html": "/josselineg.github.io/index.html",
+    "static/css/main.9a952c8c.chunk.css.map": "/josselineg.github.io/static/css/main.9a952c8c.chunk.css.map",
+    "static/js/2.3e818c14.chunk.js.LICENSE.txt": "/josselineg.github.io/static/js/2.3e818c14.chunk.js.LICENSE.txt",
+    "static/media/LogoJGHalfcolor.9abfdd4b.png": "/josselineg.github.io/static/media/LogoJGHalfcolor.9abfdd4b.png",
+    "static/media/josseline2.9dfbe053.jpg": "/josselineg.github.io/static/media/josseline2.9dfbe053.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.96e252ef.js",
+    "static/js/2.3e818c14.chunk.js",
+    "static/css/main.9a952c8c.chunk.css",
+    "static/js/main.19c22a68.chunk.js"
+  ]
+}
