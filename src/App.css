@@ -99,8 +99,6 @@
   margin-top: 80px;
   margin-right: 200px;
   flex-direction: column;
- 
-  
 }
 
 .projectButton button{
@@ -111,8 +109,6 @@
     display:'flex';
     margin: 40px ;
     margin-top: 150px;
-    
-    
 }
 
 .project{
@@ -120,7 +116,31 @@
   width: 100%;
   top: 0;
   height: 548px;
+  
 }
+
+.proj1{
+  background-color: #a7a376;
+  width: 100%;
+  top: 0;
+  height: 548px;
+ 
+}
+
+.proj2{
+  background-color: #a7a376;
+  width: 100%;
+  top: 0;
+  height: 548px;
+}
+
+.proj3{
+  background-color: #a7a376;
+  width: 100%;
+  top: 0;
+  height: 548px;
+}
+
 .contactMe{
   background-color: #a7a376;
   width: 100%;
