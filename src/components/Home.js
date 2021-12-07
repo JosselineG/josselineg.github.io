@@ -6,7 +6,7 @@ return(
     <div className="home">
         <h1>Josseline Guardado</h1>
 
-         <img className="homeImg"src={logo} width="550" height="450"  borderRadius="20"/>
+         <img alt="ProfilePic" className="homeImg"src={logo} width="550" height="450"/>
   
     </div>
 

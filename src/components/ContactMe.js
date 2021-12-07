@@ -21,17 +21,18 @@ handleSubmit =(e)=>{
 
  render(){
     return(
-        <div > 
+        <div className = "contactMe" > 
             <form >
             
             <h1>Contact Me</h1>
                 <div className="contact">
-            <a style={{color: "black"}} href="mailto: guardadojosseline@gmail.com"> 
-            <p>Email: guardadojosseline@gmail.com</p>
-            </a>
-            <a style={{color: "black"}} href="tel: 914-257-9220"> 
-            <p>Phone Number: 914-257-9220 </p>
-           </a>
+                    <a style={{color: "black"}} href="mailto: guardadojosseline@gmail.com"> 
+                     <  p>Email: guardadojosseline@gmail.com</p>
+                    </a>
+            
+                    <a style={{color: "black"}} href="tel: 914-257-9220"> 
+                        <p>Phone Number: 914-257-9220 </p>
+                    </a>
                 </div>
 
             <div className="box">
@@ -39,7 +40,7 @@ handleSubmit =(e)=>{
             <TextField    
                   id="outlined-name" 
                   label="Name" 
-                  variant="outlined" 
+                  variant="filled" 
                 
                   value= {this.state.value}
                   onChange={(e)=>this.handleChange(e)}
@@ -49,15 +50,15 @@ handleSubmit =(e)=>{
             <TextField  
                 id="outlined-email" 
                 label="Email" 
-                variant="outlined" />
-
+                variant="filled" />
+               
 
                 <br/>
 
             <TextField 
                 id="outlined-message" 
                 label="Message" 
-                variant="outlined" />
+                variant="filled" />
 
                 <button onClick={(e)=>this.handleSubmit(e)} type="submit">Submit</button>
            

@@ -4,7 +4,7 @@ import Box from '@mui/material/Box'
 export default function AboutMe(){ 
     return(
         <div className="About"> 
-          <h1>About Me</h1> 
+          <h1 style={{color:"black"}}>About Me</h1> 
             <Box className="AboutBox">
         
                 <p>
@@ -18,7 +18,7 @@ export default function AboutMe(){
               
                 </p>
 
-                <a style={{color: "white"}}target="_blank" href="https://docs.google.com/document/d/1DZ76DWPY-4bB-ZilVb0-XhOz2GmatUnKuqahIN586uc/edit?usp=sharing">Resume Link!</a>        
+                <a style={{color: "white"}}  rel="noreferrer" target="_blank" href="https://docs.google.com/document/d/1DZ76DWPY-4bB-ZilVb0-XhOz2GmatUnKuqahIN586uc/edit?usp=sharing">Resume Link!</a>        
                   {/* <a> tag defines a hyperlink, which is used to link from one page to another. 
                   <href> attribute indicates the link's destination. <target>="_blank" opens the link in a new tab.
                    */}
