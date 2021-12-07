@@ -18,7 +18,7 @@ function App() {
          <div> 
             <ul>
             <li> 
-           <Link style={{color:"white"}}  to = '/'>Home</Link>  
+           <Link  style={{color:"white"}}  to = '/'>Home</Link>  
             </li>
              <li> 
              <Link style={{color:"white"}} to = 'AboutMe'>About Me</Link> 
