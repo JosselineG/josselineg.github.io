@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/static/css/main.657615db.chunk.css",
+    "main.js": "/static/js/main.1ff757f2.chunk.js",
+    "main.js.map": "/static/js/main.1ff757f2.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.11135e69.js",
+    "runtime-main.js.map": "/static/js/runtime-main.11135e69.js.map",
+    "static/js/2.3e818c14.chunk.js": "/static/js/2.3e818c14.chunk.js",
+    "static/js/2.3e818c14.chunk.js.map": "/static/js/2.3e818c14.chunk.js.map",
+    "static/js/3.2f3ba182.chunk.js": "/static/js/3.2f3ba182.chunk.js",
+    "static/js/3.2f3ba182.chunk.js.map": "/static/js/3.2f3ba182.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.657615db.chunk.css.map": "/static/css/main.657615db.chunk.css.map",
+    "static/js/2.3e818c14.chunk.js.LICENSE.txt": "/static/js/2.3e818c14.chunk.js.LICENSE.txt",
+    "static/media/LogoJGHalfcolor.9abfdd4b.png": "/static/media/LogoJGHalfcolor.9abfdd4b.png",
+    "static/media/josseline2.9dfbe053.jpg": "/static/media/josseline2.9dfbe053.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.11135e69.js",
+    "static/js/2.3e818c14.chunk.js",
+    "static/css/main.657615db.chunk.css",
+    "static/js/main.1ff757f2.chunk.js"
+  ]
+}
