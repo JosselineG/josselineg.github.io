@@ -5,8 +5,8 @@ import ArticleIcon from '@mui/icons-material/Article';
 export default function Projects(){ 
     return(
         <div className="project"> 
-          <h1>Projects</h1>
-            <div className="projectButton"> 
+            <h1>Projects</h1>
+          <div className="projectButton"> 
        
                  <Link  
                   style={{ textDecoration: 'none' }} 
@@ -39,7 +39,7 @@ export default function Projects(){
                     </Button>
                 </Link> 
         
-            </div>
+          </div>
         </div>
    )
 
